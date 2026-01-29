@@ -74,12 +74,12 @@ const Footer: React.FC = () => {
               <li className="flex items-start space-x-3">
                 <MapPin size={16} className="text-[#F58220] mt-0.5 flex-shrink-0" />
                 <p className="text-xs font-bold text-slate-500 leading-relaxed">
-                  Jl. Ganesa No. 101, Denpasar, Bali 80234
+                  Jl. Ken Arok Gg. Manik Mas, No. 3, Peguyangan Denpasar Utara, Kota Denpasar Bali
                 </p>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={16} className="text-[#F58220] flex-shrink-0" />
-                <p className="text-xs font-bold text-slate-500">(0361) 123-4567</p>
+                <p className="text-xs font-bold text-slate-500">+62 851-5651-0756</p>
               </li>
             </ul>
           </div>
@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom Footer */}
         <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-[10px] font-black text-slate-400 uppercase tracking-[0.3em]">
-          <p>© {new Date().getFullYear()} GANESA MAS GLOBAL. ALL RIGHTS RESERVED.</p>
+          <p>© {new Date().getFullYear()} GANESA MAS. ALL RIGHTS RESERVED.</p>
           <div className="flex items-center space-x-6">
             <a href="#" className="hover:text-[#2D5A27]">Privacy Policy</a>
             <a href="#" className="hover:text-[#2D5A27]">Terms of Service</a>
